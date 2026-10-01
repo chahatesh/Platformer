@@ -1,12 +1,12 @@
 [gd_scene format=4 uid="uid://di7ni6ilp1l1x"]
 
-[ext_resource type="Texture2D" uid="uid://uobdiw4w4lvc" path="res://icon.svg" id="1_0xm2m"]
 [ext_resource type="Script" uid="uid://cn4vsrj45doka" path="res://player.gd" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://dmeuxopkaa8hf" path="res://2d-game-character-11563233908ryhxnpodm5.png" id="2_1bvp3"]
 [ext_resource type="Texture2D" uid="uid://t5xlsx1c8ht0" path="res://Green.jpg" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://cos2jr37ffegh" path="res://tilemap.jpg" id="4_1bvp3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lfpsg"]
-size = Vector2(129, 128)
+size = Vector2(79, 128)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
 texture = ExtResource("2_h2yge")
@@ -3621,10 +3621,12 @@ sources/1 = SubResource("TileSetAtlasSource_lquwl")
 script = ExtResource("1_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=1929672766]
-texture = ExtResource("1_0xm2m")
+position = Vector2(-3.499996, -1.4999988)
+scale = Vector2(0.25708503, 0.25148514)
+texture = ExtResource("2_1bvp3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1848691727]
-position = Vector2(-0.5, 0)
+position = Vector2(-3.5, 0)
 shape = SubResource("RectangleShape2D_lfpsg")
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1322393277]
